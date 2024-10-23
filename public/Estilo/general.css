@@ -1,0 +1,185 @@
+body{
+    background-color: #bedde9;
+}
+.caja {
+    margin: 0;
+    padding: 5px;
+    width: 32%; 
+    height: 100vh; 
+    background-color: #002942;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 2; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    padding: 10px;
+    background-color: #1b4a5c; /* Color de fondo opcional */
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0px; /* Mantiene el header pegado al borde superior */
+    width: 95%; /* Ocupa el 95% del ancho de la pantalla */
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
+    left: 50%; /* Posiciona el header en el centro horizontal */
+    transform: translateX(-50%); /* Ajusta el header para que esté centrado */
+    border-radius: 10px;
+}
+
+.caja1 {
+    display: flex;
+    gap: 10px; 
+}
+
+.caja1 a {
+    text-decoration: none;
+}
+
+.caja1 a {
+    background-color: #449194;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #033F63;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.caja1 a:hover {
+    background-color: #033F63;
+    color: #ffffff;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.card h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+h2 a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    color: rgb(0, 37, 48);
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.caja img {
+    display: block;
+    margin: 0 auto; 
+    height: 60%; /* Ajusta la altura de la imagen */
+    position: relative;
+}
+
+.caja2i{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+    margin-left: 35%; 
+    padding: 20px; 
+    color: black;
+    border-radius: 10px; 
+    font-weight: bold;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    background-color: #436e80;
+    padding: 20px;
+    color: rgb(0, 47, 53);
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+#footer .inner {
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenido */
+}
+
+#footer h2 {
+    margin-bottom: 15px;
+}
+
+#footer .field input, 
+#footer .field textarea {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#footer .field.half input {
+    width: 35%; /* Ajusta el tamaño de los campos a la mitad (para dos en la misma línea) */
+}
+
+#footer .actions input {
+    background-color: #5db3b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#footer .actions input:hover {
+    background-color: #033F63;
+}
+
+#footer .icons a {
+    color: rgb(0, 47, 53);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.cajaG {
+    width: 70%; /* El div ocupará el 70% del ancho del navegador */
+    margin-top: 15vh; /* Espacio del 10% desde la parte superior de la pantalla */
+    background-color: #97cbd8;
+    padding: 20px;
+    border: 2px solid #033F63;
+    border-radius: 10px;
+    margin-left: auto; /* Centra el div horizontalmente */
+    margin-right: auto; /* Centra el div horizontalmente */
+}
+.cajaG img {
+    width: 80%;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #033F63;
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+
+.cajaG p{
+    text-align: left;
+    color: black;
+
+}
+

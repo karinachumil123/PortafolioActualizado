@@ -1,0 +1,55 @@
+
+
+.fondo {    
+    height: 1925px; /* Ajusta la altura de la imagen */
+    width: 1343px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Contenedor de la galería de imágenes */
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas */
+    grid-template-rows: auto auto; /* 2 filas automáticas */
+    gap: 50px; /* Espacio entre los contenedores */
+    padding: 50px;
+    justify-items: center;
+}
+h2{
+    margin: 10px 0 5px; /* Espacio entre la imagen y el texto */
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #00252c;
+    border: none; /* Sin borde */
+    border-radius: 5px;
+    padding: 10px 8px;
+}
+/* Estilo de las imágenes */
+.contenedor img {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 450px; /* Ajusta el tamaño máximo de las imágenes */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 30px rgb(41, 114, 27);
+}
+
+.contenedor p {
+    margin: 10px 0 5px; /* Espacio entre la imagen y el texto */
+    font-size: 18px;
+    color: white;
+}
+
+.contenedor .card:nth-child(5) {
+    grid-column: 1 / span 2; /* Se extiende a lo largo de las dos columnas */
+    justify-self: center; /* Centra el contenedor en la fila */
+}
+.descriptionCard{
+    background-color: #033f4b;
+    border: none; /* Sin borde */
+    border-radius: 5px;
+    padding: 10px 8px;
+}

@@ -1,0 +1,54 @@
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Crea dos columnas iguales */
+    gap: 0px; /* Añade espacio entre las columnas */
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-top: 2%;
+}
+
+.imagen img {
+    max-width: 46%; /* Reduce el tamaño de la imagen al 50% de su contenedor */
+    height: auto; /* Mantiene la proporción correcta de la imagen */
+    border: 3px solid #28666E; /* Añade un borde de 3px con color personalizado */
+    border-radius: 10px; /* Redondea las esquinas del borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra ligera para mayor estética */
+    display: block; /* Convierte la imagen en un bloque para permitir el centrado */
+    margin: 10% auto 20px auto; /* 10% de margen superior, centrado horizontalmente */
+}
+
+.contenido, .caja2 p{
+    color: #000000;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.texto  p{
+    color: black;
+    font-size: 20px;
+}
+.texto {
+    width: 100%; /* Asegura que el div ocupe el 100% del ancho de la columna */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Ajusta el padding según tus necesidades */
+    border: 3px solid #033F63;
+    background-color: #68b0b3;
+    border-radius: 10px;
+    margin-top: 10%;
+    box-sizing: border-box; /* Asegura que padding y bordes se incluyan en el ancho total */
+}
+
+.caja2 {
+    
+    flex-direction: column; 
+    align-items: center; 
+    text-align: left;
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: #68b0b3; 
+    border: 3px solid #033F63;
+    color: black;
+    border-radius: 10px; 
+    font-size: 22px;
+    width: 60%; /* Ocupa el 40% del ancho del navegador */
+    margin: 0 auto; /* Centra horizontalmente */
+}
